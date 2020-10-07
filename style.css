@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Page wrapper */
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* Navbar */
+header nav{
+    padding: 10px;
+    background-image: url(img/header_bg.png);
+    background-repeat: repeat-x;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+header nav ul{
+    margin-top: 30px;
+    text-align: center;
+}
+
+header nav ul li{
+    padding-left: 40px;
+    display: inline-block;
+}
+
+header nav ul a{
+    text-decoration: none;
+}
+
+
