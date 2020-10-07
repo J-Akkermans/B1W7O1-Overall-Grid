@@ -32,7 +32,38 @@ header nav ul li{
 }
 
 header nav ul a{
+    color: #314759;
     text-decoration: none;
 }
 
 
+/* Banner / Hero */
+.heroBanner{
+    display: inline-grid;
+    background-image: url(img/banner_bg.png);
+    background-repeat: repeat-x; 
+    height: 425px;
+    width: 100%;
+}
+.imgLeftBanner{
+    grid-column: 1 / 2;
+	grid-row: 1;
+}
+.imgLeftBanner img{
+    margin: 20px 0px 80px 20px;
+}
+.textRightBanner{
+    grid-row: 1;
+    grid-column: 2 / 2;
+    color: white;
+    width: 250px;
+}
+
+.textRightBanner h1{
+    font-size: 26px;
+    line-height: 30px;
+	margin-top: 30px;
+}
+.rightBannerP p{
+margin-top: 10px;
+}
