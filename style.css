@@ -14,7 +14,7 @@
 
 /* Navbar */
 header nav{
-    padding: 10px;
+    padding-top: 10px;
     background-image: url(img/header_bg.png);
     background-repeat: repeat-x;
     display: grid;
@@ -66,4 +66,31 @@ header nav ul a{
 }
 .rightBannerP p{
 margin-top: 10px;
+}
+
+
+/* Cards */
+.row{
+    width: 100%;
+    margin-top: 25px;
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.row .card h2,p, a{
+    margin: 15px 0px;
+}
+
+
+/* footer */
+footer{
+    background-image: url(img/footer_bg.png);
+    height: 50px;
+    color: white;
+    text-align: center;
+vertical-align: middle;
+line-height: 50px; 
+margin: 0;
 }
