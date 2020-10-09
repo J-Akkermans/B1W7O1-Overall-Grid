@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -6,71 +6,74 @@
 
 
 /* Page wrapper */
-.wrapper{
+.wrapper {
     width: 1100px;
     margin: 0 auto;
 }
 
 
 /* Navbar */
-header nav{
+header nav {
     padding-top: 10px;
     background-image: url(img/header_bg.png);
     background-repeat: repeat-x;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: auto auto auto;
 }
 
-header nav ul{
+header nav ul {
     margin-top: 30px;
     text-align: center;
 }
 
-header nav ul li{
+header nav ul li {
     padding-left: 40px;
     display: inline-block;
 }
 
-header nav ul a{
+header nav ul a {
     color: #314759;
     text-decoration: none;
 }
 
 
 /* Banner / Hero */
-.heroBanner{
-    display: inline-grid;
-    background-image: url(img/banner_bg.png);
-    background-repeat: repeat-x; 
-    height: 425px;
+main {
     width: 100%;
+    background-image: url(img/banner_bg.png);
+    background-repeat: repeat-x;
 }
-.imgLeftBanner{
-    grid-column: 1 / 2;
-	grid-row: 1;
+
+.heroBanner {
+    display: inline-grid;
+    height: 425px;
+    grid-gap: 25px;
 }
-.imgLeftBanner img{
+
+.imgLeftBanner img {
     margin: 20px 0px 80px 20px;
 }
-.textRightBanner{
+
+.textRightBanner {
     grid-row: 1;
     grid-column: 2 / 2;
     color: white;
     width: 250px;
 }
 
-.textRightBanner h1{
+.textRightBanner h1 {
     font-size: 26px;
     line-height: 30px;
-	margin-top: 30px;
+    margin-top: 30px;
 }
-.rightBannerP p{
-margin-top: 10px;
+
+.rightBannerP p {
+    margin-top: 10px;
 }
 
 
 /* Cards */
-.row{
+.row {
     width: 100%;
     margin-top: 25px;
     display: inline-grid;
@@ -79,18 +82,21 @@ margin-top: 10px;
     justify-content: center;
 }
 
-.row .card h2,p, a{
+.row .card h2,
+p,
+a {
     margin: 15px 0px;
 }
 
 
 /* footer */
-footer{
+footer {
     background-image: url(img/footer_bg.png);
     height: 50px;
     color: white;
     text-align: center;
-vertical-align: middle;
-line-height: 50px; 
-margin: 0;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0;
+
 }
